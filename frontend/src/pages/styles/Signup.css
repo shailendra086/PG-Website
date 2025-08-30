@@ -1,0 +1,16 @@
+/* same as Login.css with different button colors */
+.auth-card button {
+  background: #ff4e50;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.auth-card button:hover {
+  background: #fc913a;
+  transform: scale(1.05);
+}

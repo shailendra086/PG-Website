@@ -10,6 +10,31 @@
   z-index: 100;
 }
 
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ffd700;
+  transform: scale(1.1);
+}
+
+.login-btn {
+  background: #ff4e50;
+  padding: 8px 15px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #fc913a;
+  color: white !important;
+  transform: scale(1.1);
+}
+
+
 .logo {
   font-size: 1.8rem;
   font-weight: bold;

@@ -1,0 +1,25 @@
+.footer {
+  background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.socials {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.socials span {
+  transition: transform 0.3s ease;
+}
+
+.socials span:hover {
+  transform: rotate(360deg) scale(1.2);
+  color: #ffd700;
+}

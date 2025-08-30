@@ -1,0 +1,53 @@
+.hero {
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7")
+    center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  animation: fadeIn 2s ease-in;
+}
+
+.hero-title {
+  font-size: 3rem;
+  animation: slideDown 1s ease;
+}
+
+.hero-subtitle {
+  margin: 15px 0;
+  font-size: 1.2rem;
+  animation: fadeInUp 1.5s ease;
+}
+
+.hero-btn {
+  padding: 12px 25px;
+  background: #ff4e50;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.hero-btn:hover {
+  background: #fc913a;
+  transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
